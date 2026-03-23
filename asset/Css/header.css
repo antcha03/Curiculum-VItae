@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    background-color: #17abb3;
+    color: #ffffff;
+}
+
+header .Gauche{
+    width: 70%;
+    padding: 20px;
+}
+
+header .Droite{
+    width: 70%;
+    padding: 20px;
+}
+
+header .Profil{
+    display: grid;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-color: #ffffff;
+    border-radius: 150px;
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+header img{
+    width: 25px;
+    height: 25px;
+}
+

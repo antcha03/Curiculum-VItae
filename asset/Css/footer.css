@@ -1,0 +1,23 @@
+footer{
+    height: 100px;
+    background-color: #17abb3;
+}
+footer img{
+    width: 40px;
+    height: 40px;
+}
+.Icone{
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-style: italic;
+}
+
+footer a{
+    padding: 15px 0px 5px 0px;
+}

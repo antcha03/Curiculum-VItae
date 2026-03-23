@@ -1,0 +1,31 @@
+.Seconde{
+    display: flex;
+}
+
+main .Gauche{
+    width: 30%;
+    color: #17abb3;
+    background-color: #e3e3e3;
+    padding: 20px;
+}
+
+.Gauche img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+main p{
+    color: #333333;
+}
+
+ul{
+    list-style-type: square;
+    color: #17abb3;
+    padding-left: 10px;
+}
+
+main .Droite{
+    width: 70%;
+    padding: 20px;
+}
