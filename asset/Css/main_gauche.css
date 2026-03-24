@@ -1,21 +1,7 @@
-main{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
-main h2{
-    color: #17abb3;
-}
-
-main .Droite{
-    width: 70%;
-    padding: 20px;
-}
-
 main .Gauche{
     width: 30%;
     background-color: #e3e3e3;
-    padding: 20px;
+    padding: 20px 40px 20px 40px;
 }
 
 main .Gauche img{
