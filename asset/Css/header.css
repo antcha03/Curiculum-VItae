@@ -5,7 +5,10 @@ header{
 }
 
 header .Gauche{
-    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
     padding: 20px;
 }
 
@@ -29,7 +32,7 @@ header a{
     color: #ffffff;
 }
 
-header img{
+header .Droite img{
     width: 25px;
     height: 25px;
 }
