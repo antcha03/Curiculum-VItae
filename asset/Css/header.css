@@ -4,6 +4,8 @@ header{
     color: #ffffff;
 }
 
+/* Colonne Gauche */
+
 header .Gauche{
     display: flex;
     align-items: center;
@@ -12,19 +14,25 @@ header .Gauche{
     padding: 20px;
 }
 
-header .Droite{
-    width: 70%;
-    padding: 20px;
-}
-
 header .Profil{
     display: grid;
     justify-content: center;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 5px solid;
     border-color: #ffffff;
     border-radius: 150px;
+    cursor: zoom-in;
+}
+
+/* Colonne Droite */
+
+header .Droite{
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header a{
