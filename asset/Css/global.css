@@ -40,6 +40,6 @@ main{
 main h2{
     margin: 15px 0px 15px 0px;
     color: #17abb3;
-    border: 5px;
+    border-bottom: 1px solid;
     border-color: #333333;
 }

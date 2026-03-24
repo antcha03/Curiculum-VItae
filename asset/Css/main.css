@@ -1,3 +1,20 @@
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main h2{
+    margin: 15px 0px 15px 0px;
+    color: #17abb3;
+    border: 5px;
+    border-color: #333333;
+}
+
+main .Droite{
+    width: 70%;
+    padding: 20px 40px 20px 40px;
+}
+
 main .Gauche{
     width: 30%;
     background-color: #e3e3e3;
