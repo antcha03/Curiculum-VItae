@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/Css/global.css">
     <link rel="stylesheet" href="./asset/Css/header.css">
-    <link rel="stylesheet" href="./asset/Css/main_aside.css">
+    <link rel="stylesheet" href="./asset/Css/main.css">
     <link rel="stylesheet" href="./asset/Css/footer.css">
     <title>Curiculum vitae</title>
 </head>
@@ -21,20 +21,30 @@
                 <h1>Antoine Terreuil</h1>
                 <h2>Développeur web et Web Mobile</h2>
                 <address>
-                    <img src="./asset/Img/Icone/IconeEnveloppe.svg" alt="Enveloppe Icone"><p><a href="#">Mail</a></p>
-                    <img src="./asset/Img/Icone/IconeMaison.svg" alt="Maison Icone"><p><a href="https://www.google.com/maps" target="_blank">Adresse</a>
-                    <img src="./asset/Img/Icone/IconeTéléphone.svg" alt="Téléphone Icone"><p><a href="#">Téléphone</a>
-                    <img src="./asset/Img/Icone/IconeVoiture.svg" alt="Voiture Icone"><p>Pas de Permis</p>
+                    <div class="adresse">
+                        <img src="./asset/Img/Icone/IconeEnveloppe.svg" alt="Enveloppe Icone"><p><a href="#">Mail</a></p>
+                    </div>
+                    <div class="adresse">
+                        <img src="./asset/Img/Icone/IconeMaison.svg" alt="Maison Icone"><p><a href="https://www.google.com/maps" target="_blank">Adresse</a>
+                    </div>
+                    <div class="adresse">
+                        <img src="./asset/Img/Icone/IconeTéléphone.svg" alt="Téléphone Icone"><p><a href="#">Téléphone</a>
+                    </div>
+
+                    <div class="adresse">
+                        <img src="./asset/Img/Icone/IconeVoiture.svg" alt="Voiture Icone"><p>Pas de Permis</p>
+                    </div>
                 </address>
             </div>   
         </header>  
         <div class="Seconde">
             <main>
                 <div class="Droite">
-                <!--Colonne de Droite-->
+                    <!--Colonne de Droite-->
                     <section class="Profil">
                         <h2>Profil</h2>
-                        <p>Etudiant sortant de formation au centre Européen de Formation en développement Web et Web Mobile, âgé de 19 ans je souahiterais intégré votre start-up afin d'aquerir une nouvelle expérience et de continuer de perfectionner et d'amélioere mes compétence en développement</p>
+                        <!-- Indentation du texte via CSS ajout alinéa -->
+                        <p id="Profil">Etudiant sortant de formation au centre Européen de Formation en Développement Web et Web Mobile, âgé de 19 ans je souahiterais intégré votre start-up afin d'aquerir une nouvelle expérience et de continuer de perfectionner et d'amélioere mes compétence en développement.</p>
                     </section>
                     <section class="Formations">
                         <h2>Formations</h2>
@@ -47,12 +57,12 @@
                             <p>Collége de la Ville</p>
                         </div>
                     </section>
-                    <section class="Stages">
+                    <section id="Stages">
                         <h2>Stages</h2>
                         <p><b>Stage 3éme école d'Art</b><span>Décembre 2023</span></p>
                         <p>Ecole Municipale d'art plastique</p>
                     </section>
-                    <section class="Expériences">
+                    <section id="Expériences">
                         <h2>Expérience professionnelle</h2>
                         <p><b>Aucune</b></p>
                     </section>
@@ -110,8 +120,9 @@
 
                     <section class="Langues">
                         <h2>Langues</h2>
-                        <p><b>Francais</b> <span>Langue Maternelle</span></p>
-                        <p><b>Anglais</b> <span>A2/B1</span></p>
+                        <p><b>Francais</b><span>Langue Maternelle</span></p>
+                        <p><b>Anglais</b><span>A2~B1</span></p>
+                        <p><b>Espagnol</b><span>A2~B1</span></p>
                     </section>
 
                     <section class="Qualités">
